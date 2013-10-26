@@ -8,5 +8,10 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.add_files("model.js",["server","client"]);
   api.add_files("geoimager.js", "server");
+  api.export("filepickerResults");
+  api.export("Geoimager");
+  api.use(['templating'], 'client');
+  api.add_files(["geoimager.html","geoimager.css","geoimager-client.js"], "client");
 });

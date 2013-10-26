@@ -1,0 +1,14 @@
+<template name="mapbox">
+  <h3>Edibles Atlas</h3>
+  <div id="map"></div>
+</template>
+
+<template name="filepicker">
+  	<h3>Start with a Photo!</h3>
+
+	<p>Upload a photo to add a source. If you have GPS services enabled on your phone (or other fancy camera), then
+	we'll pull the location for you. Easier than the pie you're dreaming of making with your new edibles.</p>
+
+	<input id="fileadd" type="filepicker-dragdrop" data-fp-mimetypes="image/*" data-fp-container="modal" data-fp-multiple="true" data-fp-services="COMPUTER,DROPBOX" onchange="filepickerResults.process(event.fpfiles);">
+
+</template>
