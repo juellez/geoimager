@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "gm":"1.13.1",
+  "gm":"1.13.3",
   "request":"2.27.0"
 });
 
