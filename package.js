@@ -4,7 +4,8 @@ Package.describe({
 
 Npm.depends({
   "gm":"1.13.3",
-  "request":"2.27.0"
+  "request":"2.27.0",
+  "fibers":"1.0.1"
 });
 
 Package.on_use(function (api) {
