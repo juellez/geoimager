@@ -5,8 +5,5 @@
     "author": "Jewel Mlnarik",
     "version": "0.1.0",
     "git": "https://github.com/juellez/geoimager.git",
-    "packages": {
-	  "gm":"1.13.1",
-	  "request":"2.27.0"
-    }
+    "packages": { /* other meteorite packages. see package.json for npm dependencies */ }
 }
